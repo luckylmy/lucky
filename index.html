@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="艺术 艺术品 人工智能 大数据 识图 搜图 AI 拍卖 电商 油画 国画 九大美院 爱艺术 懂艺数 技术服务 互联网科技" />
+    <meta name="description" content="大艺数是国内领先的艺术品智能投顾,咨询服务提供商,致力于用大数据,人工智能等技术解决艺术品投资,收藏,消费过程中的信息孤岛,决策难的问题" />
+    <title>大艺数 | 艺术品投资 | 收藏 | 消费 | 智能投顾</title>
+    <link rel="shortcut icon" href="https://image1.dayishu.top/gw/images/logo02.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="libs/animate.min.css">
+    <link rel="stylesheet" href="css/index.css?v=20181029">
+    <style>
+        .carousel-indicators {
+            position: absolute;
+            bottom: -40px;
+            left: 50%;
+            z-index: 15;
+            width: 60%;
+            padding-left: 0;
+            margin-left: -30%;
+            text-align: center;
+            list-style: none;
+        }
+
+        .carousel-indicators li {
+            display: inline-block;
+            width: 32px;
+            height: 6px;
+            margin: 1px;
+            text-indent: -999px;
+            cursor: pointer;
+            background-color: #999999;
+        }
+
+        .carousel-indicators .active {
+            width: 32px;
+            height: 6px;
+            margin: 1px;
+            background-color: #0877CA;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- loading -->
+    <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+          </div>
+
+
+
+    <div id="top-fixed" class="go-top">
+        <img src="https://image1.dayishu.top/gw/images/arrowup.png" alt="" style="width:24px">
+    </div>
+    <nav id="nav-box">
+        <div id="top-box" class="clearfix">
+            <div id="logo" class="pull-left">
+                <img src="https://image1.dayishu.top/gw/images/logo_white.png" alt="" id="logo-img">
+            </div>
+            <div id="nav" class="pull-right">
+                <ul>
+                    <li>
+                        <span class="nav-li" style="width:100%;height:100%;display:block;padding: 0 16px;">首页</span>
+                        <div class="li-line"></div>
+                    </li>
+                    <li>
+                        <span class="nav-li" style="width:100%;height:100%;display:block;padding: 0 16px;">公司简介</span>
+                        <div class="li-line"></div>
+                    </li>
+                    <li>
+                        <span class="nav-li" style="width:100%;height:100%;display:block;padding: 0 16px;">公司服务</span>
+                        <div class="li-line"></div>
+                    </li>
+                    <li>
+                        <span class="nav-li" style="width:100%;height:100%;display:block;padding: 0 16px;">产品案例</span>
+                        <div class="li-line"></div>
+                    </li>
+                    <li>
+                        <span class="nav-li" style="width:100%;height:100%;display:block;padding: 0 16px;">公司动态</span>
+                        <div class="li-line"></div>
+                    </li>
+                    <li>
+                        <span class="nav-li" style="width:100%;height:100%;display:block;padding: 0 16px;">加入我们</span>
+                        <div class="li-line"></div>
+                    </li>
+                    <li>
+                        <span class="nav-li" style="width:100%;height:100%;display:block;padding: 0 16px;padding-right:0">联系我们</span>
+                        <div class="li-line" style="margin-left:-4px"></div>
+                    </li>
+                </ul>
+
+                <div id="small-nav" style="display: none">
+                    <img src="https://image1.dayishu.top/gw/images/menu01.png" alt="" style="cursor: pointer" id="small-nav-img">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="small-menu" class="txt-center color-white">
+        <p class="nav-li">首页</p>
+        <p class="nav-li">公司简介</p>
+        <p class="nav-li">公司服务</p>
+        <p class="nav-li">产品案例</p>
+        <p class="nav-li">公司动态</p>
+        <p class="nav-li">加入我们</p>
+        <p class="nav-li" style="padding-right:0">联系我们</p>
+    </div>
+    <!-- 首页 -->
+    <div id="bg">
+
+        <div class="txt-center color-white" style="position:absolute;top:50%;transform: translate(0,-50%);width: 100%">
+            <p class="font-64 wow fadeInUp" data-wow-delay="0.5s" id="top-title">爱艺术，懂技术</p>
+            <p class="font-16 wow fadeInUp" data-wow-delay="0.5s" id="title2">艺术品行业智能解决方案</p>
+        </div>
+        <!-- <div id="top-title" class="font-64 color-white wow fadeInUp" data-wow-delay="0.5s">爱艺术，懂艺数</div>
+        <div class="color-white wow fadeInUp" data-wow-delay="0.5s" >
+            <p class="txt-center font-16" id="title2">艺术品投资收藏小工具</p>
+        </div> -->
+        <div style="position:absolute;bottom:0;left:0;width:100%;text-align: center">
+            <img id="index-next" src="https://image1.dayishu.top/gw/images/icon04.png" alt="">
+        </div>
+
+        <a name="profile" style="position:absolute;bottom:75px"></a>
+        <a name="profile2" style="position:absolute;bottom:40px"></a>
+    </div>
+
+    <!-- 公司简介 -->
+    <div id="company-profile">
+        <div class="service-box">
+            <p class="font-24 font-bold wow fadeInUp" data-wow-delay="0.5s">公司简介</p>
+            <i style="padding:12px 0 24px 0" class="color-blue en-title wow fadeInUp" data-wow-delay="0.5s">COMPANY
+                PROFILE</i>
+            <p style="width:calc(50% - 12px);line-height: 30px" class="wow fadeInUp" data-wow-delay="0.5s">上海特临信息（Teralinks）成立于2017年初，是一家基于专业学术背景、技术背景、市场背景、投资背景的强技术导向型互联网公司，是目前国内领先的艺术品智能投顾和智能交易服务提供商。所开发的“大艺数”产品矩阵致力于运用大数据、人工智能等技术解决艺术品消费、投资、收藏过程中的信息孤岛、决策困难等问题，从而为用户提供全新的服务体验，创造艺术领域全新的投顾模式、交易模式和行业业态。</p>
+            <p style="width:calc(50% - 12px);line-height: 30px" class="wow fadeInUp" data-wow-delay="0.5s">上海特临信息的目标是构建艺术品行业的智能产业模式，团队成员皆为来自于艺术行业和技术领域的高精尖人才，秉承通过“艺术+技术”提高用户决策效率和行业能效的理念，持续为客户创造价值。"爱艺术、懂技术"是团队每个成员的坚持和骄傲。</p>
+        </div>
+        <div id="profile-img" class="wow fadeInUp" data-wow-delay="0.5s" data-wow-offset="10" data-wow-iteration="1"></div>
+        <a name="service" style="position:absolute;bottom:75px"></a>
+        <div id="profile-bg-txt">
+            <i style="font-size:128px;position: absolute;top: -40px;left: 0;">COMPANY</i>
+            <i style="font-size:128px;position: absolute;bottom: -20px;right: 0;">PROFILE</i>
+        </div>
+    </div>
+
+    <div id="small-company-profile">
+        <p class="font-24 font-bold wow fadeInUp txt-center" data-wow-delay="0.5s">公司简介</p>
+        <i style="padding:12px 0 24px 0" class="color-blue en-title wow fadeInUp txt-center" data-wow-delay="0.5s">COMPANY
+            PROFILE</i>
+        <img src="https://image1.dayishu.top/gw/images/img01.png" alt="" style="width:100%">
+        <p style="line-height: 30px;margin-top:8px" class="wow fadeInUp" data-wow-delay="0.5s">上海特临信息（Teralinks）成立于2017年初，是一家基于专业学术背景、技术背景、市场背景、投资背景的强技术导向型互联网公司，是目前国内领先的艺术品智能投顾和智能交易服务提供商。所开发的“大艺数”产品矩阵致力于运用大数据、人工智能等技术解决艺术品消费、投资、收藏过程中的信息孤岛、决策困难等问题，从而为用户提供全新的服务体验，创造艺术领域全新的投顾模式、交易模式和行业业态。</p>
+        <p style="line-height: 30px" class="wow fadeInUp" data-wow-delay="0.5s">
+            上海特临信息的目标是构建艺术品行业的智能产业模式，团队成员皆为来自于艺术行业和技术领域的高精尖人才，秉承通过“艺术+技术”提高用户决策效率和行业能效的理念，持续为客户创造价值。"爱艺术、懂技术"是团队每个成员的坚持和骄傲。
+        </p>
+
+        <a name="service2" style="position:absolute;bottom:40px"></a>
+    </div>
+
+    <!-- 公司服务 -->
+    <div id="company-service">
+        <p class="font-24 font-bold txt-center wow fadeInUp" data-wow-delay="0.5s">公司服务</p>
+        <i class="color-blue txt-center en-title wow fadeInUp" data-wow-delay="0.5s">OUR SERVICE</i>
+        <div class="service-box">
+            <div class="service-item wow fadeInUp" data-wow-delay="0.5s">
+                <img src="https://image1.dayishu.top/gw/images/icon01.png" alt="">
+                <p class="service-item-title font-24 font-bold" style="padding:40px 0 16px 0">收藏</p>
+                <p class="service-item-content">提供基于大数据技术的艺术品收藏环节中不同单品和各板块的数据收集、整理、查询、分析等一站式服务。</p>
+            </div>
+            <div class="service-item wow fadeInUp" data-wow-delay="0.7s">
+                <img src="https://image1.dayishu.top/gw/images/icon02.png" alt="">
+                <p class="service-item-title font-24 font-bold" style="padding:40px 0 16px 0">投资</p>
+                <p class="service-item-content">提供第一手的艺术品行业动态资讯，提供相关艺术品的信息和数据的收集、整理、结构化，以及更为深度的分析、咨询和投顾服务。</p>
+            </div>
+            <div class="service-item wow fadeInUp" data-wow-delay="0.9s">
+                <img src="https://image1.dayishu.top/gw/images/icon03.png" alt="">
+                <p class="service-item-title font-24 font-bold" style="padding:40px 0 16px 0">消费</p>
+                <p class="service-item-content">提供海量优质原创艺术品和艺术衍生品的O2O电商交易、物流、以及相关金融服务。</p>
+            </div>
+        </div>
+        <a name="case" style="position:absolute;bottom:75px"></a>
+        <a name="case2" style="position:absolute;bottom:40px"></a>
+    </div>
+
+    <!-- 产品案例 -->
+    <div id="product-case">
+        <a name="news" style="position:absolute;bottom:75px"></a>
+        <p class="font-24 font-bold txt-center wow fadeInUp" data-wow-delay="0.5s">产品案例</p>
+        <i class="color-blue txt-center en-title wow fadeInUp" data-wow-delay="0.5s">PRODUCT CASE</i>
+        <div class="service-box">
+            <div class="product-item clearfix">
+                <div class="pull-left">
+                    <img src="https://image1.dayishu.top/gw/images/product01.png" alt="" style="width:100%;height:100%"
+                        class="wow fadeInUp" data-wow-delay="0.5s">
+                </div>
+                <div class="pull-right case-txt-box">
+                    <i style="color:#D9D9D9" class="font-24 wow fadeInUp" data-wow-delay="0.5s">01</i>
+                    <p class="font-16 wow fadeInUp" data-wow-delay="0.5s">大艺数_APP</p>
+                    <p style="line-height:24px" class="color-gray wow fadeInUp" data-wow-delay="0.5s">针对深度用户的投资和收藏需求，提供对应艺术品信息和数据的收集、整理、分析、投顾的产品；在提供投顾服务的同时，提供基于大数据技术的精准交易撮合服务，从而既能提高用户的决策效率，也能提高交易效率。</p>
+                    <p class="color-blue" style="cursor: pointer;" onclick="downLoadAppClick()">
+                        <img src="https://image1.dayishu.top/gw/images/icon05.png" alt="" style="width:24px">
+                        下载APP</p>
+                </div>
+            </div>
+            <div class="product-item clearfix">
+                <div class="pull-left case-txt-box">
+                    <i style="color:#D9D9D9" class="font-24 wow fadeInUp" data-wow-delay="0.5s">02</i>
+                    <p class="font-16 wow fadeInUp" data-wow-delay="0.5s">艺查查_小程序</p>
+                    <p style="line-height:24px" class="color-gray wow fadeInUp" data-wow-delay="0.5s">通过图像识别技术，以相机或相册为入口、以微信生态为扩散渠道、以“艺术品+UGC评论”为传播原动力（艺术品领域的“网易云音乐”模式）的艺术品信息和数据的浏览、B2C交易、以及基于艺术品的内容生产平台。</p>
+                    <p class="color-blue" style="cursor: pointer;" onclick="downLoadYccClick()">
+                        <img src="https://image1.dayishu.top/gw/images/icon05.png" alt="" style="width:24px">
+                        使用艺查查</p>
+                </div>
+                <div class="pull-right">
+                    <img src="https://image1.dayishu.top/gw/images/product02.png" alt="" style="width:100%;height:100%"
+                        class="wow fadeInUp" data-wow-delay="0.5s">
+                </div>
+            </div>
+            <div class="product-item clearfix">
+                <div class="pull-left">
+                    <img src="https://image1.dayishu.top/gw/images/product03.png" alt="" style="width:100%;height:100%"
+                        class="wow fadeInUp" data-wow-delay="0.5s">
+                </div>
+                <div class="pull-right case-txt-box">
+                    <i style="color:#D9D9D9" class="font-24 wow fadeInUp" data-wow-delay="0.5s">03</i>
+                    <p class="font-16 wow fadeInUp" data-wow-delay="0.5s">艺查查-PC电商</p>
+                    <p style="line-height:24px" class="color-gray wow fadeInUp" data-wow-delay="0.5s">基于海量的优质原创艺术品供应链资源和多种行业对艺术品需求的选品行为画像，通过高度的结构化数据，为各个行业的需求方实现“增量、增质、增效、增附加值”的艺术品选品素材库和B2B采购工具，实现优质的原创艺术品和消费市场需求的高效对接。</p>
+                </div>
+            </div>
+            <div class="product-item clearfix">
+                <div class="pull-left case-txt-box">
+                    <i style="color:#D9D9D9" class="font-24 wow fadeInUp" data-wow-delay="0.5s">04</i>
+                    <p class="font-16 wow fadeInUp" style="padding:16px 0 40px 0" data-wow-delay="0.5s">大艺数-公众号</p>
+                    <p style="line-height:24px" class="color-gray wow fadeInUp" data-wow-delay="0.5s">针对用户关注的知名艺术人物、热点艺术事件、经典艺术品等等，进行内容生产和推送，努力做到“艺术走近生活，服务生活”。</p>
+                    <p class="color-blue" style="cursor: pointer;" onclick="downLoadGzhClick()">
+                        <img src="https://image1.dayishu.top/gw/images/icon05.png" alt="" style="width:24px">
+                        关注公众号</p>
+                </div>
+                <div class="pull-right">
+                    <img src="https://image1.dayishu.top/gw/images/product04.png" alt="" style="width:100%;height:100%"
+                        class="wow fadeInUp" data-wow-delay="0.5s">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="small-product-case">
+        <a name="news2" style="position:absolute;bottom:40px"></a>
+        <p class="font-24 font-bold txt-center wow fadeInUp" data-wow-delay="0.5s">产品案例</p>
+        <i class="color-blue txt-center en-title wow fadeInUp" data-wow-delay="0.5s">PRODUCT CASE</i>
+        <div class="product-item">
+            <img src="https://image1.dayishu.top/gw/images/product01.png" alt="" style="width:100%;height:100%" class="wow fadeInUp"
+                data-wow-delay="0.5s">
+            <div class="case-txt-box" style="width:100%;padding:8px 0 24px 0">
+                <p class="font-16 wow fadeInUp font-bold" data-wow-delay="0.5s">大艺数_APP</p>
+                <p style="line-height:24px;margin-top: 4px" class="color-gray wow fadeInUp" data-wow-delay="0.5s">语针对深度用户的投资和收藏需求，提供对应艺术品信息和数据的收集、整理、分析、投顾的产品；在提供投顾服务的同时，提供基于大数据技术的精准交易撮合服务，从而既能提高用户的决策效率，也能提高交易效率。</p>
+                <p class="color-blue" onclick="downLoadAppClick()" style="cursor: pointer;">
+                    <img src="https://image1.dayishu.top/gw/images/icon05.png" alt="" style="width:24px">
+                    下载APP</p>
+            </div>
+        </div>
+        <div class="product-item">
+            <img src="https://image1.dayishu.top/gw/images/product02.png" alt="" style="width:100%;height:100%" class="wow fadeInUp"
+                data-wow-delay="0.5s">
+            <div class="case-txt-box" style="width:100%;padding:8px 0 24px 0">
+                <p class="font-16 wow fadeInUp font-bold" data-wow-delay="0.5s">艺查查-小程序</p>
+                <p style="line-height:24px;margin-top: 4px" class="color-gray wow fadeInUp" data-wow-delay="0.5s">语通过图像识别技术，以相机或相册为入口、以微信生态为扩散渠道、以“艺术品+UGC评论”为传播原动力（艺术品领域的“网易云音乐”模式）的艺术品信息和数据的浏览、B2C交易、以及基于艺术品的内容生产平台。</p>
+                <p class="color-blue" onclick="downLoadYccClick()" style="cursor: pointer;">
+                    <img src="https://image1.dayishu.top/gw/images/icon05.png" alt="" style="width:24px">
+                    使用艺查查</p>
+            </div>
+        </div>
+        <div class="product-item">
+            <img src="https://image1.dayishu.top/gw/images/product03.png" alt="" style="width:100%;height:100%" class="wow fadeInUp"
+                data-wow-delay="0.5s">
+            <div class="case-txt-box" style="width:100%;padding:8px 0 24px 0">
+                <p class="font-16 wow fadeInUp font-bold" data-wow-delay="0.5s">艺查查-PC电商</p>
+                <p style="line-height:24px;margin-top: 4px" class="color-gray wow fadeInUp" data-wow-delay="0.5s">基于海量的优质原创艺术品供应链资源和多种行业对艺术品需求的选品行为画像，通过高度的结构化数据，为各个行业的需求方实现“增量、增质、增效、增附加值”的艺术品选品素材库和B2B采购工具，实现优质的原创艺术品和消费市场需求的高效对接。</p>
+            </div>
+        </div>
+        <div class="product-item">
+            <img src="https://image1.dayishu.top/gw/images/product04.png" alt="" style="width:100%;height:100%" class="wow fadeInUp"
+                data-wow-delay="0.5s">
+            <div class="case-txt-box" style="width:100%;padding:8px 0 24px 0">
+                <p class="font-16 wow fadeInUp font-bold" data-wow-delay="0.5s">大艺数-公众号</p>
+                <p style="line-height:24px;margin-top: 4px" class="color-gray wow fadeInUp" data-wow-delay="0.5s">针对用户关注的知名艺术人物、热点艺术事件、经典艺术品等等，进行内容生产和推送，努力做到“艺术走近生活，服务生活”。</p>
+                <p class="color-blue" onclick="downLoadGzhClick()" style="cursor: pointer;">
+                    <img src="https://image1.dayishu.top/gw/images/icon05.png" alt="" style="width:24px">
+                    关注公众号</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 产品案例弹出层 -->
+    <div id="mask">
+        <div id="mask-code" class="txt-center">
+            <div style="text-align:right">
+                <img src="https://image1.dayishu.top/gw/images/cancel.png" alt="" style="width:24px;height:24px;cursor: pointer;">
+            </div>
+            <div style="margin-top:12px;display: inline-block;width: 212px;height: 212px;background-color: #ffffff;padding: 4px">
+                <img src="" alt="" style="width:100%;height:100%" id="mask-img">
+            </div>
+            <p class="color-white" style="margin-top:24px" id="mask-txt">扫码下载大艺数APP</p>
+        </div>
+    </div>
+
+    <!-- 公司动态 -->
+    <div id="company-news">
+        <a name="join" style="position:absolute;bottom:75px"></a>
+        <a name="join2" style="position:absolute;bottom:40px"></a>
+        <div id="news-bg"></div>
+        <p class="font-24 font-bold txt-center color-white wow fadeInUp" data-wow-delay="0.5s">公司动态</p>
+        <i class="color-blue txt-center en-title wow fadeInUp" data-wow-delay="0.5s">COMPANY NEWS</i>
+
+
+        <div id="carousel-example-generic" class="carousel slide lunbo" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="service-box">
+                        <div class="news-item">
+                            <img src="https://image1.dayishu.top/gw/images/img02.png" alt="">
+                            <p style="padding:24px 0;color:#666666">2018-10</p>
+                            <p class="font-16 font-bold news-txt1">艺查查-PC版上线</p>
+                            <p style="padding-top:16px" class="color-gray news-txt2">基于B端市场需求，“艺查查PC版”上线。</p>
+                        </div>
+                        <div class="news-item">
+                            <img src="https://image1.dayishu.top/gw/images/img03.png" alt="">
+                            <p style="padding:24px 0;color:#666666">2018-07</p>
+                            <p class="font-16 font-bold news-txt1">大艺数创始人马田获得荣誉</p>
+                            <p style="padding-top:16px" class="color-gray news-txt2">马田获评美国最具商业影响力权威杂志《FAST COMPANY》
+                                “2018中国商业最具创意人物100榜单（MCP100）”。</p>
+                        </div>
+                        <div class="news-item">
+                            <img src="https://image1.dayishu.top/gw/images/img04.png" alt="">
+                            <p style="padding:24px 0;color:#666666">2018-06</p>
+                            <p class="font-16 font-bold news-txt1">大艺数app和艺查查小程序上线</p>
+                            <p style="padding-top:16px" class="color-gray news-txt2">“大艺数APP”和“艺查查小程序”等产品相继上线，并在应用场景内进行小范围测试，深受目标用户认可。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="service-box">
+                        <div class="news-item">
+                            <img src="https://image1.dayishu.top/gw/images/img05.png" alt="">
+                            <p style="padding:24px 0;color:#666666">2018-03</p>
+                            <p class="font-16 font-bold news-txt1">天使融资</p>
+                            <p style="padding-top:16px" class="color-gray news-txt2">公司完成柏翠山产业基金的数百万元天使轮融资。</p>
+                        </div>
+                        <div class="news-item">
+                            <img src="https://image1.dayishu.top/gw/images/img06.png" alt="">
+                            <p style="padding:24px 0;color:#666666">2017-06</p>
+                            <p class="font-16 font-bold news-txt1">大艺数公众号开始运营</p>
+                            <p style="padding-top:16px" class="color-gray news-txt2">《大艺数》公众号上线并投入运营，通过多维度专业内容的生产和多平台的持续推广，业界知名度和阅读量不断走高。</p>
+                        </div>
+                        <div class="news-item">
+                            <img src="https://image1.dayishu.top/gw/images/img07.png" alt="">
+                            <p style="padding:24px 0;color:#666666">2017-01</p>
+                            <p class="font-16 font-bold news-txt1">公司成立</p>
+                            <p style="padding-top:16px" class="color-gray news-txt2">上海特临信息成立，由天使投资人和创始团队共同完成公司种子投资。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            </ol>
+        </div>
+        <div class="service-box lunbo2">
+            <div class="news-item wow fadeInUp" data-wow-delay="0.5s">
+                <img src="https://image1.dayishu.top/gw/images/img02.png" alt="">
+                <p style="padding:24px 0;color:#666666">2018-10</p>
+                <p class="font-16 font-bold news-txt1">艺查查-PC版上线</p>
+                <p style="padding-top:16px" class="color-gray news-txt2">基于B端市场需求，“艺查查PC版”上线。</p>
+            </div>
+            <div class="news-item wow fadeInUp" data-wow-delay="0.5s">
+                <img src="https://image1.dayishu.top/gw/images/img03.png" alt="">
+                <p style="padding:24px 0;color:#666666">2018-07</p>
+                <p class="font-16 font-bold news-txt1">大艺数创始人马田获得荣誉</p>
+                <p style="padding-top:16px" class="color-gray news-txt2">马田获评美国最具商业影响力权威杂志《FAST COMPANY》
+                    “2018中国商业最具创意人物100榜单（MCP100）”。</p>
+            </div>
+            <div class="news-item wow fadeInUp" data-wow-delay="0.5s">
+                <img src="https://image1.dayishu.top/gw/images/img04.png" alt="">
+                <p style="padding:24px 0;color:#666666">2018-06</p>
+                <p class="font-16 font-bold news-txt1">大艺数app和艺查查小程序上线</p>
+                <p style="padding-top:16px" class="color-gray news-txt2">“大艺数APP”和“艺查查小程序”等产品相继上线，并在应用场景内进行小范围测试，深受目标用户认可。</p>
+            </div>
+            <div class="news-item wow fadeInUp" data-wow-delay="0.5s">
+                <img src="https://image1.dayishu.top/gw/images/img05.png" alt="">
+                <p style="padding:24px 0;color:#666666">2018-03</p>
+                <p class="font-16 font-bold news-txt1">天使融资</p>
+                <p style="padding-top:16px" class="color-gray news-txt2">公司完成柏翠山产业基金的数百万元天使轮融资。</p>
+            </div>
+            <div class="news-item wow fadeInUp" data-wow-delay="0.5s">
+                <img src="https://image1.dayishu.top/gw/images/img06.png" alt="">
+                <p style="padding:24px 0;color:#666666">2017-06</p>
+                <p class="font-16 font-bold news-txt1">大艺数公众号开始运营</p>
+                <p style="padding-top:16px" class="color-gray news-txt2">《大艺数》公众号上线并投入运营，通过多维度专业内容的生产和多平台的持续推广，业界知名度和阅读量不断走高。</p>
+            </div>
+            <div class="news-item wow fadeInUp" data-wow-delay="0.5s">
+                <img src="https://image1.dayishu.top/gw/images/img07.png" alt="">
+                <p style="padding:24px 0;color:#666666">2017-01</p>
+                <p class="font-16 font-bold news-txt1">公司成立</p>
+                <p style="padding-top:16px" class="color-gray news-txt2">上海特临信息成立，由天使投资人和创始团队共同完成公司种子投资。</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 加入我们 -->
+    <div id="join-us">
+        <a name="contact" style="position:absolute;bottom:75px"></a>
+        <p class="font-24 font-bold txt-center wow fadeInUp" data-wow-delay="0.5s">加入我们</p>
+        <i class="color-blue txt-center en-title wow fadeInUp" data-wow-delay="0.5s">JOIN US</i>
+        <div class="service-box clearfix">
+            <div class="pull-left" id="jion-img">
+                <img src="https://image1.dayishu.top/gw/images/img08.png" alt="" style="width:100%;" class="wow fadeInUp"
+                    data-wow-delay="0.5s">
+            </div>
+            <div class="pull-right" id="jion-txt">
+                <p class="color-blue wow fadeInUp" data-wow-delay="0.5s">“艺术是美好生活的向往”</p>
+                <p style="color:#666666" class="wow fadeInUp" data-wow-delay="0.5s">创始人&CEO</p>
+                <p class="font-16 font-bold wow fadeInUp" data-wow-delay="0.5s">马田（Allen）</p>
+                <p class="wow fadeInUp" data-wow-delay="0.5s">毕业于西安电子科技大学，后加入美国半导体公司Neophotonics，做为公司早期成员历经公司从发展壮大，直至纽交所成功IPO，以及IPO后数次国际化并购的全过程。</p>
+                <p style="margin: 8px 0" class="wow fadeInUp" data-wow-delay="0.5s">2017年从Neo离职创办了上海特临信息和“大艺数”项目，投身于文创艺术领域。</p>
+                <p class="wow fadeInUp" data-wow-delay="0.5s">身为资深理工男和互联网人，同时又是深度的艺术品爱好者、投资人和收藏家，拥有超过八年的艺术品投资和收藏经历，对艺术品行业和艺术品投资、收藏有独到的理解和认识，并致力于通过“技术+互联网模式”提高行业能效。</p>
+                <p style="margin: 8px 0" class="wow fadeInUp" data-wow-delay="0.5s">获评美国最具商业影响力权威杂志《FAST
+                    COMPANY》“2018中国商业最具创意人物100榜单（MCP100）”。</p>
+
+            </div>
+            <a href="work.html" target="_Blank">
+                <div id="join-work" class=" wow fadeInUp" data-wow-delay="0.5s">热招职位</div>
+            </a>
+        </div>
+    </div>
+
+    <div id="small-join-us">
+        <a name="contact2" style="position:absolute;bottom:40px"></a>
+        <p class="font-24 font-bold txt-center wow fadeInUp" data-wow-delay="0.5s">加入我们</p>
+        <i class="color-blue txt-center en-title wow fadeInUp" data-wow-delay="0.5s">JOIN US</i>
+        <div class="service-box clearfix">
+            <div class="pull-left" style="width:calc(50% - 8px)">
+                <img src="https://image1.dayishu.top/gw/images/img08.png" alt="" style="width:100%;height:100%" class="wow fadeInUp"
+                    data-wow-delay="0.5s">
+            </div>
+            <div class="pull-right" style="width:50%;position:relative">
+                <p class="color-blue font-24 wow fadeInUp" style="padding:56px 0 40px 0" data-wow-delay="0.5s">“艺术是美好生活的向往”</p>
+                <p style="color:#666666" class="wow fadeInUp" data-wow-delay="0.5s">创始人&CEO</p>
+                <p class="font-16 font-bold wow fadeInUp" style="padding:8px 0" data-wow-delay="0.5s">马田（Allen）</p>
+
+            </div>
+
+
+        </div>
+        <p style="line-height: 18px;color:#666666;padding: 12px 16px 4px 16px" class="wow fadeInUp" data-wow-delay="0.5s">
+            毕业于西安电子科技大学，后加入美国半导体公司Neophotonics，做为公司早期成员历经公司从发展壮大，直至纽交所成功IPO，以及IPO后数次国际化并购的全过程。
+        </p>
+        <p style="line-height: 18px;color:#666666;padding: 4px 16px" class="wow fadeInUp" data-wow-delay="0.5s">
+            2017年从Neo离职创办了上海特临信息和“大艺数”项目，投身于文创艺术领域。
+        </p>
+        <p style="line-height: 18px;color:#666666;padding: 4px 16px" class="wow fadeInUp" data-wow-delay="0.5s">
+            身为资深理工男和互联网人，同时又是深度的艺术品爱好者、投资人和收藏家，拥有超过八年的艺术品投资和收藏经历，对艺术品行业和艺术品投资、收藏有独到的理解和认识，并致力于通过“技术+互联网模式”提高行业能效。
+        </p>
+        <p style="line-height: 18px;color:#666666;padding: 4px 16px 12px 16px" class="wow fadeInUp" data-wow-delay="0.5s">
+            获评美国最具商业影响力权威杂志《FAST COMPANY》“2018中国商业最具创意人物100榜单（MCP100）”。
+        </p>
+        <a href="work.html" target="_Blank">
+            <div class="join-work wow fadeInUp" data-wow-delay="0.5s">热招职位</div>
+        </a>
+
+    </div>
+
+    <!-- 联系我们 -->
+    <div id="contact-us">
+        <p class="font-24 font-bold txt-center color-white wow fadeInUp" data-wow-delay="0.5s">联系我们</p>
+        <i class="color-blue txt-center en-title wow fadeInUp" data-wow-delay="0.5s">CONTACT US</i>
+        <div class="service-box clearfix">
+            <div class="pull-left color-white" style="height:279px;position: relative;">
+                <p class="wow fadeInUp" data-wow-delay="0.5s">电话：&emsp;021-52212308</p>
+                <p class="wow fadeInUp" style="margin:16px 0" data-wow-delay="0.5s">邮箱：&emsp;yuyan.sun@teralinks.cn</p>
+                <p class="wow fadeInUp" data-wow-delay="0.5s">地址：&emsp;<span class="wow fadeInUp" data-wow-delay="0.5s"
+                        style="width:190px;line-height: 20px;display: inline-block;vertical-align: top">上海市闵行区浦星公路800号华侨城
+                        中意国际D栋603</span></p>
+                <p class="wow fadeInUp" data-wow-delay="0.5s" style="position:absolute;bottom: 0;left:0">公众号微信：&emsp;
+                    <img src="https://image1.dayishu.top/gw/images/public.jpeg" alt="" style="vertical-align: bottom;width: 80px"
+                        class="wow fadeInUp" data-wow-delay="0.5s">
+                </p>
+            </div>
+            <div id="map-b" style="width:calc(100% - 250px)" class="pull-right wow fadeInUp" data-wow-delay="0.5s"></div>
+        </div>
+        <div style="width:100%;height:2px;border: solid 1px rgba(255, 255, 255, 0.3);margin:96px 0 86px 0"></div>
+        <div class="service-box clearfix color-white" style="font-size:10px">
+            <img src="https://image1.dayishu.top/gw/images/logo01.png" alt="" style="height:64px" class="pull-left">
+
+            <div class="pull-left" style="margin-left:32px">
+                <p class="nav-li" style="padding:8px 0;cursor: pointer;">首页</p>
+                <p class="nav-li" style="padding:8px 0;cursor: pointer;">公司简介</p>
+            </div>
+            <div class="pull-left" style="margin-left:32px">
+                <p class="nav-li" style="padding:8px 0;cursor: pointer;">公司服务</p>
+                <p class="nav-li" style="padding:8px 0;cursor: pointer;">产品案例</p>
+            </div>
+            <div class="pull-left" style="margin-left:32px">
+                <p class="nav-li" style="padding:8px 0;cursor: pointer;">公司动态</p>
+                <p class="nav-li" style="padding:8px 0;cursor: pointer;">加入我们</p>
+            </div>
+            <div class="pull-left" style="margin-left:32px">
+                <p class="nav-li" style="padding:8px 0;cursor: pointer;">联系我们</p>
+            </div>
+
+            <div class="pull-right">
+                <!-- <p style="text-align:right;margin-top:12px;cursor: pointer;" class="go-top">
+                    <img src="https://image1.dayishu.top/gw/images/arrowup.png" alt="" style="width:16px;margin-right: 4px;position: relative;top: -1px">
+                    TOP</p> -->
+                <p style="margin-top:46px">Copyright © 2018 大艺数保留所有权利 | <a href="http://www.miitbeian.gov.cn" target="_Blank"
+                        class="color-blue">沪ICP备18000756号</a></p>
+            </div>
+        </div>
+    </div>
+    <div id="small-contact-us">
+        <p class="font-24 font-bold txt-center color-white wow fadeInUp" data-wow-delay="0.5s">联系我们</p>
+        <i class="color-blue txt-center en-title wow fadeInUp" data-wow-delay="0.5s">CONTACT US</i>
+        <div class="service-box">
+            <div id="map-s" style="width:100%" class="wow fadeInUp" data-wow-delay="0.5s"></div>
+            <div class="color-white" style="margin-top: 19px">
+                <p class="wow fadeInUp" data-wow-delay="0.5s">电话：&emsp;021-52212308</p>
+                <p class="wow fadeInUp" style="margin:16px 0" data-wow-delay="0.5s">邮箱：&emsp;yuyan.sun@teralinks.cn</p>
+                <p class="wow fadeInUp" data-wow-delay="0.5s">地址：&emsp;上海市闵行区浦星公路800号华侨城 中意国际D栋603</p>
+                <p class="wow fadeInUp" data-wow-delay="0.5s" style="margin-top:16px">公众号微信：&emsp;
+                    <img src="https://image1.dayishu.top/gw/images/public.jpeg" alt="" style="vertical-align: bottom;width: 80px"
+                        class="wow fadeInUp" data-wow-delay="0.5s">
+                </p>
+            </div>
+        </div>
+        <div style="width:100%;height:2px;border: solid 1px rgba(255, 255, 255, 0.3);margin:36px 0"></div>
+        <div class="service-box clearfix color-white">
+            <img src="https://image1.dayishu.top/gw/images/logo01.png" alt="" style="height:36px" class="pull-left">
+
+            <div class="pull-left" style="margin-left:24px">
+                <p class="nav-li" style="padding:4px 0;cursor: pointer;">首页</p>
+                <p class="nav-li" style="padding:4px 0;cursor: pointer;">公司简介</p>
+            </div>
+            <div class="pull-left" style="margin-left:24px">
+                <p class="nav-li" style="padding:4px 0;cursor: pointer;">公司服务</p>
+                <p class="nav-li" style="padding:4px 0;cursor: pointer;">产品案例</p>
+            </div>
+            <div class="pull-left" style="margin-left:24px">
+                <p class="nav-li" style="padding:4px 0;cursor: pointer;">公司动态</p>
+                <p class="nav-li" style="padding:4px 0;cursor: pointer;">加入我们</p>
+            </div>
+            <div class="pull-left" style="margin-left:24px">
+                <p class="nav-li" style="padding:4px 0;cursor: pointer;">联系我们</p>
+            </div>
+
+
+        </div>
+        <div class="color-white clearfix" style="padding:24px 16px 16px 16px">
+            <p class="pull-left go-top" style="cursor: pointer;margin-top:8px">
+                <img src="https://image1.dayishu.top/gw/images/arrowup.png" alt="" style="width:16px;margin-right: 4px;position: relative;top: -2px">
+                TOP</p>
+            <p class="pull-right" style="margin-top:8px">Copyright © 2018 大艺数保留所有权利 | <a href="http://www.miitbeian.gov.cn"
+                    target="_Blank" class="color-blue">沪ICP备18000756号</a></p>
+        </div>
+    </div>
+
+
+
+    <!-- jquery -->
+    <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <!-- 百度地图 -->
+    <script src="https://api.map.baidu.com/getscript?v=3.0&ak=QQzVDGWROXGGETdw75qgNAlV1CHYKcFt"></script>
+    <!-- 动画 -->
+    <script src="libs/wow.min.js"></script>
+
+    <script src="js/index.js?v=20181029"></script>
+    <script>
+
+        window.onload = function(){
+            $(".spinner").css("display","none");
+        }
+        new WOW().init();
+
+
+        // 创建地图
+        const myMapBig = new BMap.Map("map-b");
+        var point = new BMap.Point(121.506896, 31.112275);
+        myMapBig.centerAndZoom(point, 18);
+        myMapBig.enableScrollWheelZoom(true);
+        var marker = new BMap.Marker(point);
+        myMapBig.addOverlay(marker);
+
+        const smallM = new BMap.Map("map-s");
+        var small_point = new BMap.Point(121.506896, 31.112275);
+        smallM.centerAndZoom(small_point, 18);
+        smallM.enableScrollWheelZoom(true);
+        var small_marker = new BMap.Marker(small_point);
+        smallM.addOverlay(small_marker);
+
+
+        function downLoadAppClick() {
+            $("#mask").css("opacity", "1");
+            $("#mask").css("z-index", "1000");
+            $('html,body').addClass('ovfHiden');
+
+            $("#mask-img").attr("src", "https://image1.dayishu.top/gw/images/app.png");
+            $("#mask-txt").text("扫码下载大艺数APP");
+        }
+        function downLoadYccClick() {
+            $("#mask").css("opacity", "1");
+            $("#mask").css("z-index", "1000");
+            $('html,body').addClass('ovfHiden');
+
+            $("#mask-img").attr("src", "https://image1.dayishu.top/gw/images/applets.png");
+            $("#mask-txt").text("扫码使用艺查查小程序");
+
+        }
+
+        function downLoadGzhClick() {
+            $("#mask").css("opacity", "1");
+            $("#mask").css("z-index", "1000");
+            $('html,body').addClass('ovfHiden');
+
+            $("#mask-img").attr("src", "https://image1.dayishu.top/gw/images/public.jpeg");
+            $("#mask-txt").text("扫码关注大艺数公众号");
+
+        }
+
+
+    </script>
+</body>
+
+</html>
